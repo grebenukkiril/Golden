@@ -1,0 +1,165 @@
+:root{
+    --header-text-color:#FED136;
+    --main-title-color:#222;
+    --main-text-color:#777;
+    --footer-bg-color:#222;
+    --footer-title-color: #FFF;
+    --footer-input-color:#BBB;
+    --footer-button-color:#FFF;
+    --footer-button-bagraund-color:#FED136;
+}
+
+body{
+    color: var(--main-text-color);
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.35px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+input{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    color: var(--header-text-color);
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 92px;
+}
+
+.box_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_list{
+    display: flex;
+}
+
+.header_items{
+    margin-right: 10px;
+}
+
+.header_link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 41px;
+}
+
+/* main */
+
+.main{
+    margin-bottom: 119px;
+}
+
+.main_subtitle{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-title-color);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
+.main_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main_subtitle_2{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+    margin: -23px 0;
+}
+
+.main_elements1{
+    margin: 0 26px;
+}
+
+/* footer */
+
+.footer{
+    background: var(--footer-bg-color);
+    color: var(--footer-title-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subtitle_footer{
+    padding-top: 92px;
+}
+
+.box_form{
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.box1{
+    display: block;
+    margin-right: 27px;
+}
+
+.box2{
+    padding-bottom: 2px;
+}
+
+.box1_input, .box1_input1{
+    padding: 12px 310px 21px 20px;
+    color: var(--footer-input-color);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.box1_input1{
+    margin-bottom: 0px;
+}
+
+.box2_input{
+    padding: 14px 286px 190px 22px;
+    color: var(--footer-input-color);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer_button{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    background: var(--footer-button-bagraund-color);
+    color: var(--footer-button-color);
+    padding: 11px 33px 28px 33px;
+}
