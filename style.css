@@ -161,5 +161,8 @@ input{
     font-style: normal;
     background: var(--footer-button-bagraund-color);
     color: var(--footer-button-color);
-    padding: 11px 33px 28px 33px;
+    padding: 18px 33px 27px 33px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 115px;
 }
